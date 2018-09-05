@@ -1,0 +1,38 @@
+{
+  "name": "cis526-final-project",
+  "version": "1.0.0",
+  "description": "A web app designed to allow users to post topics, videos and images similar to Reddit. Users can comment on posts and will be notified of any activity on their own posts.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node scripts/migrate.js",
+    "drop": "node scripts/drop.js",
+    "debug": "node --inspect server.js",
+    "build": "browserify client/app.js -o public/bundle.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergconnor/cis526-final-project.git"
+  },
+  "keywords": [
+    "Reddit",
+    "node",
+    "social"
+  ],
+  "author": "Connor Berg, Christopher Boschert and Cre Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergconnor/cis526-final-project/issues"
+  },
+  "homepage": "https://github.com/bergconnor/cis526-final-project#readme",
+  "dependencies": {
+    "mustache": "^2.3.0",
+    "octicons": "^5.0.1",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "underscore": "^1.8.3"
+  }
+}

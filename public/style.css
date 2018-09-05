@@ -1,0 +1,200 @@
+body {
+  background-color: #E4DBBF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 250px;
+}
+
+video {
+  display: block;
+  margin: auto;
+  width: 250px;
+}
+
+/*.post-header {
+  display: flex;
+  align-items: center;
+
+}*/
+
+.post-media {
+
+}
+
+.sp-nav-header {
+  background-color: #282827;
+  text-transform: lowercase;
+  height: 25px;
+  line-height: 25px;
+}
+
+.sp-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sp-nav-item {
+  float: left;
+}
+
+.sp-nav-item a {
+  display: block;
+  color: #E9E9E9;
+  text-align: center;
+  padding: 0px 7px 0px 7px;
+  text-decoration: none;
+}
+
+.sp-nav-item a:hover {
+  background-color: #818181;
+}
+
+a.active {
+  background-color: #DC5B21;
+}
+
+#menu-list, #subpage-list {
+  float: left;
+}
+
+#menu-list {
+  float: right;
+}
+
+#open-menu-text {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 4px;
+}
+
+#open-menu-icon {
+  float: right;
+  cursor: pointer;
+}
+
+.side-menu {
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  top: 200px;
+  right: 0;
+  background-color: #282827;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.side-menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+.menu-item {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-item svg {
+  fill: #E9E9E9;
+  display: block;
+  margin: 0 auto;
+}
+
+.hover-text {
+  display: none;
+}
+
+.menu-item:hover {
+  background-color: #818181;
+}
+
+.menu-item:hover .hover-text {
+  display: block;
+}
+
+.hover-text {
+  font-size: 10px;
+  text-align: center;
+}
+
+.content {
+  color: #383127;
+}
+
+.subpage-header {
+  text-align: center;
+}
+
+.post {
+  margin: 20px 20px 0 0;
+  height: 125px;
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  margin: 20px 20px 0 0;
+  height: 125px;
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.vote {
+  float: left;
+  margin: 0 15px 0 15px;
+  width: 50px;
+}
+
+.score {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 20px;
+  margin: -5px 0 -5px 0;
+}
+
+.upvote a, .downvote a {
+  cursor: pointer;
+}
+
+.upvote svg, .downvote svg {
+  display: block;
+  margin: auto;
+  fill: #282827;
+}
+
+.thumbnail-link {
+  float: left;
+  padding-right: 15px;
+}
+
+.thumbnail-img {
+  width: 125px;
+}
+
+.details {
+  align-self: flex-start;
+  margin-top: 3px;
+  margin-right: 25px;
+}
